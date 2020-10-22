@@ -28,13 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_go = new System.Windows.Forms.Button();
+            this.RTB1 = new System.Windows.Forms.RichTextBox();
+            this.SuspendLayout();
+            // 
+            // btn_go
+            // 
+            this.btn_go.Location = new System.Drawing.Point(99, 105);
+            this.btn_go.Name = "btn_go";
+            this.btn_go.Size = new System.Drawing.Size(146, 89);
+            this.btn_go.TabIndex = 0;
+            this.btn_go.Text = "GO";
+            this.btn_go.UseVisualStyleBackColor = true;
+            // 
+            // RTB1
+            // 
+            this.RTB1.Location = new System.Drawing.Point(51, 234);
+            this.RTB1.Name = "RTB1";
+            this.RTB1.Size = new System.Drawing.Size(242, 96);
+            this.RTB1.TabIndex = 1;
+            this.RTB1.Text = "";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(344, 395);
+            this.Controls.Add(this.RTB1);
+            this.Controls.Add(this.btn_go);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_go;
+        private System.Windows.Forms.RichTextBox RTB1;
     }
 }
 
