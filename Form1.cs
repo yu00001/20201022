@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             string msg = "";
             for (int i = 0; i < poker.Count; i++)
             {
-                msg += $"{poker[i]} ,";
+                msg += $"{poker[i]+1} ,";
 
             }
 

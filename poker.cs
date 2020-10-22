@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
                 for (int i = count - 2; i > 0; i--)
                 {
                     int lastindex = i + 1;
-                    int randomindex = (new Random()).Next(i); //抽牌
+                    int randomindex = (new Random()).Next(i) ; //抽牌
                     //交換
                     int temp = result[lastindex];
                     result[lastindex] = result[randomindex];
