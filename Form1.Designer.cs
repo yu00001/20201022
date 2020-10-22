@@ -40,6 +40,7 @@
             this.btn_go.TabIndex = 0;
             this.btn_go.Text = "GO";
             this.btn_go.UseVisualStyleBackColor = true;
+            this.btn_go.Click += new System.EventHandler(this.btn_go_Click);
             // 
             // RTB1
             // 
@@ -48,6 +49,7 @@
             this.RTB1.Size = new System.Drawing.Size(242, 96);
             this.RTB1.TabIndex = 1;
             this.RTB1.Text = "";
+            this.RTB1.TextChanged += new System.EventHandler(this.RTB1_TextChanged);
             // 
             // Form1
             // 
